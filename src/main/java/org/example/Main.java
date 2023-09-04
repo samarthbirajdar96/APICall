@@ -47,10 +47,10 @@ import java.net.URL;
                         throw new RuntimeException();
                     }
 
-                    System.out.println(apiData.toString());
                     JSONObject jsonAPIResponse = new JSONObject(apiData.toString());
-
-
-                }
+                        }
+                    else{
+                            System.out.println("API not made");
+                                    
             }
         }
